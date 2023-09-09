@@ -41,13 +41,13 @@ public class License {
      * Gets the status of the license
      * <p>
      * The status can be one of the following:
+     * </p>
      *     <ul>
      *         <li>{@link LicenseStatus#VALID}</li>
      *         <li>{@link LicenseStatus#EXPIRED}</li>
      *         <li>{@link LicenseStatus#INVALID}</li>
      *         <li>{@link LicenseStatus#MAX_USES_REACHED}</li>
      *     </ul>
-     * </p>
      *
      * @return the status of the license
      */
