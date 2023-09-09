@@ -16,13 +16,14 @@ public class License {
 
     /**
      * Creates a new license object with the given parameters
-     * @param status The status of the license
-     * @param licenseKey The license key
-     * @param groups The groups of the license
-     * @param permissions The permissions of the license
-     * @param meta The meta information of the license
-     * @param maxUses The maximum amount of uses of the license
-     * @param currentUses The current amount of uses of the license
+     *
+     * @param status         The status of the license
+     * @param licenseKey     The license key
+     * @param groups         The groups of the license
+     * @param permissions    The permissions of the license
+     * @param meta           The meta information of the license
+     * @param maxUses        The maximum amount of uses of the license
+     * @param currentUses    The current amount of uses of the license
      * @param expirationDate The expiration date of the license
      */
     public License(LicenseStatus status, String licenseKey, ArrayList<String> groups, ArrayList<String> permissions,
@@ -42,12 +43,12 @@ public class License {
      * <p>
      * The status can be one of the following:
      * </p>
-     *     <ul>
-     *         <li>{@link LicenseStatus#VALID}</li>
-     *         <li>{@link LicenseStatus#EXPIRED}</li>
-     *         <li>{@link LicenseStatus#INVALID}</li>
-     *         <li>{@link LicenseStatus#MAX_USES_REACHED}</li>
-     *     </ul>
+     * <ul>
+     *     <li>{@link LicenseStatus#VALID}</li>
+     *     <li>{@link LicenseStatus#EXPIRED}</li>
+     *     <li>{@link LicenseStatus#INVALID}</li>
+     *     <li>{@link LicenseStatus#MAX_USES_REACHED}</li>
+     * </ul>
      *
      * @return the status of the license
      */
