@@ -37,4 +37,31 @@ public class LicenseMeta {
         return value;
     }
 
+    /**
+     * Gets the value of the meta information as {@link Integer}
+     *
+     * @return the value of the meta information as {@link Integer}
+     */
+    public int getAsInteger() {
+        return Integer.parseInt(value);
+    }
+
+    /**
+     * Gets the value of the meta information as {@link Double}
+     *
+     * @return the value of the meta information as {@link Double}
+     */
+    public double getAsDouble() {
+        return Double.parseDouble(value);
+    }
+
+    /**
+     * Gets the value of the meta information as {@link Boolean}
+     *
+     * @return the value of the meta information as {@link Boolean}
+     */
+    public boolean getAsBoolean() {
+        return Boolean.parseBoolean(value);
+    }
+
 }
